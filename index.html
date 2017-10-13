@@ -1,180 +1,159 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  
-  <title>Hexo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo">
-  
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>rPlayer</title>
+<!-- core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/owl.carousel.css" rel="stylesheet">
+<link href="css/owl.transitions.css" rel="stylesheet">
+<link href="css/prettyPhoto.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->       
+</head><!--/head-->
 
-</head>
+<body id="home" class="homepage">
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/10/13/hello-world/" class="article-date">
-  <time datetime="2017-10-13T02:36:15.000Z" itemprop="datePublished">2017-10-13</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/10/13/hello-world/">Hello World</a>
-    </h1>
-  
+<header id="header">
+	<nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			
+			
+		</div><!--/.container-->
+	</nav><!--/nav-->
+</header><!--/header-->
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<section id="main-slider">
+	<div class="owl-carousel">
+		<div class="item" style="background-image: url(images/slider/bg1.jpg);">
+			<div class="slider-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="carousel-content">
+								<h2><span>Multi</span> is the best Onepage html template</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
+								<a class="btn btn-primary btn-lg" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.item-->
+		 <div class="item" style="background-image: url(images/slider/bg2.jpg);">
+			<div class="slider-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="carousel-content">
+								<h2>Beautifully designed <span>free</span> one page template</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
+								<a class="btn btn-primary btn-lg" href="#">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/.item-->
+	</div><!--/.owl-carousel-->
+</section><!--/#main-slider-->
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/10/13/hello-world/" data-id="cj8pdxomd000002ffalkwowce" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
+<section id="cta" class="wow fadeIn">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-9">
+				<h2>rPlayer is a powerful VR video player</h2>
+				<p>Converting any video to VR mode. Supporting all video formats, also playing online video.
+				</p>
+			</div>
+			<div class="col-sm-3 text-right">
+				<a class="btn btn-primary btn-lg" href="https://itunes.apple.com/app/apple-store/id1189518933?pt=537382&ct=website&mt=8">Download load on the App Store</a>
+			</div>
+		</div>
+	</div>
+</section><!--/#cta-->
 
+<section id="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 wow fadeInLeft">
+				<img class="img-responsive" src="images/main-feature.png" alt="">
+			</div>
+			<div class="col-sm-6">
+				<div class="media service-box wow fadeInRight">
+					<div class="media-body">
+						<h4 class="media-heading">The following video modes are supported</h4>
+						<p>- 360 ° 3D panoramic video (half side by side or over and under)<br />
+							- 2D video to 3D video<br />
+							- 3D video scene mode (cinema effect)</p>
+					</div>
+				</div>
 
-  
+				<div class="media service-box wow fadeInRight">
+					<div class="media-body">
+						<h4 class="media-heading">The following video formats are supported</h4>
+						<p>m4a, m4v, wmv, 3gp, mp4, mov, avi, mkv, mpeg, mpg, flv, rmvb, vob etc</p>
+					</div>
+				</div>
 
+				<div class="media service-box wow fadeInRight">
+					<div class="media-body">
+						<h4 class="media-heading">360 ° panoramic video control mode</h4>
+						<p>- Gyroscope control<br />
+							- Gesture control<br />
+							- FOV control</p>
+					</div>
+				</div>
+
+				<div class="media service-box wow fadeInRight">
+					<div class="media-body">
+						<h4 class="media-heading">Supported video transmission methods</h4>
+						<p>- WI-FI transmission<br />
+							- iTunes transmission<br />
+							- URL mode playback</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
-        
-          <aside id="sidebar">
-  
-    
 
-  
-    
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+            <div class="col-sm-6">Copyright &copy; 2017 Yuehuan Wang - QQ:99050906 - Mail: rplayer@126.com</div>
+		</div>
+	</div>
+</footer><!--/#footer-->
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li></ul>
-    </div>
-  </div>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/10/13/hello-world/">Hello World</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2017 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mousescroll.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.inview.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
